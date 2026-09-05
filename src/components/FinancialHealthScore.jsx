@@ -1,4 +1,4 @@
-import { ProgressRing } from "./UI";
+import { ProgressRing } from "./ui";
 
 const getScoreColor  = (s) => s >= 75 ? "#16a34a" : s >= 50 ? "#ca8a04" : "#dc2626";
 const getScoreLabel  = (s) => s >= 75 ? "Excellent" : s >= 60 ? "Good" : s >= 45 ? "Fair" : "Needs Work";
