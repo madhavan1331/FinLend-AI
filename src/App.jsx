@@ -6,7 +6,7 @@ import { DisbursementDashboard } from "./components/Dashboard";
 import { VideoKYC } from "./components/Features1";
 import { AILoanAdvisor } from "./components/AILoanAdvisor";
 import { SmartLoanRecommender } from "./components/SmartFeatures";
-import { Field, SelectField, InfoBox, DocUpload, ReviewSection, Skeleton } from "./components/UI";
+import { Field, SelectField, InfoBox, DocUpload, ReviewSection, Skeleton } from "./components/ui";
 import { validators, calcEMI, fmt, rateFromScore } from "./utils/helpers";
 
 export default function App() {
